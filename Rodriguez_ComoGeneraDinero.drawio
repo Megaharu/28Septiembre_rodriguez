@@ -1,0 +1,71 @@
+<mxfile host="65bd71144e">
+    <diagram id="GeneraDinero002" name="Page-1">
+        <mxGraphModel dx="376" dy="560" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="900" pageHeight="700" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+
+                <mxCell id="tit" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontStyle=1;fontSize=14;" value="MODELO DE INGRESOS DE LA PLATAFORMA DE ESPORTS" vertex="1">
+                    <mxGeometry height="30" width="480" x="210" y="10" as="geometry"/>
+                </mxCell>
+
+                <mxCell id="A" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#2f6f4f;strokeColor=#1e4d36;fontColor=#ffffff;fontStyle=1;" value="INICIO" vertex="1">
+                    <mxGeometry height="60" width="140" x="380" y="60" as="geometry"/>
+                </mxCell>
+
+                <mxCell id="B1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#eaf1fb;strokeColor=#2b5a8c;" value="EQUIPOS PAGAN CUOTA&lt;div&gt;DE INSCRIPCIÓN&lt;/div&gt;&lt;div&gt;(15-20% comisión)&lt;/div&gt;" vertex="1">
+                    <mxGeometry height="70" width="220" x="90" y="180" as="geometry"/>
+                </mxCell>
+
+                <mxCell id="B2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#eaf1fb;strokeColor=#2b5a8c;" value="NEGOCIOS PAGAN&lt;div&gt;PATROCINIO LOCAL&lt;/div&gt;" vertex="1">
+                    <mxGeometry height="70" width="220" x="340" y="180" as="geometry"/>
+                </mxCell>
+
+                <mxCell id="B3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#eaf1fb;strokeColor=#2b5a8c;" value="JUGADORES PAGAN&lt;div&gt;SUSCRIPCIÓN PREMIUM&lt;/div&gt;" vertex="1">
+                    <mxGeometry height="70" width="220" x="590" y="180" as="geometry"/>
+                </mxCell>
+
+                <mxCell id="AB1" edge="1" parent="1" source="A" target="B1" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="AB2" edge="1" parent="1" source="A" target="B2" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="AB3" edge="1" parent="1" source="A" target="B3" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+
+                <mxCell id="D" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#eaf1fb;strokeColor=#2b5a8c;" value="INGRESOS TOTALES&lt;div&gt;DE LA PLATAFORMA&lt;/div&gt;" vertex="1">
+                    <mxGeometry height="70" width="220" x="340" y="330" as="geometry"/>
+                </mxCell>
+
+                <mxCell id="B1D" edge="1" parent="1" source="B1" target="D" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.15;entryY=0;entryDx=0;entryDy=0;">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="B2D" edge="1" parent="1" source="B2" target="D" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="B3D" edge="1" parent="1" source="B3" target="D" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.85;entryY=0;entryDx=0;entryDy=0;">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+
+                <mxCell id="E" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#eaf1fb;strokeColor=#2b5a8c;" value="REINVERSIÓN Y CRECIMIENTO&lt;div&gt;(servidores, premios, marketing)&lt;/div&gt;" vertex="1">
+                    <mxGeometry height="90" width="280" x="310" y="460" as="geometry"/>
+                </mxCell>
+
+                <mxCell id="DE" edge="1" parent="1" source="D" target="E" style="endArrow=classic;html=1;">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+
+                <mxCell id="F" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#2f6f4f;strokeColor=#1e4d36;fontColor=#ffffff;fontStyle=1;" value="FIN" vertex="1">
+                    <mxGeometry height="60" width="140" x="380" y="610" as="geometry"/>
+                </mxCell>
+
+                <mxCell id="EF" edge="1" parent="1" source="E" target="F" style="endArrow=classic;html=1;">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
